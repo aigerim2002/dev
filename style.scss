@@ -1,0 +1,437 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.a {
+  text-decoration: none;
+}
+
+//HEADER//
+#header {
+  padding-top: 50px;
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+
+    &__logo {
+      width: 76px;
+      height: 22px;
+      font-size: 18px;
+      line-height: 21px;
+      color: #313131;
+
+    }
+
+    &--btn {
+      color: white;
+      width: 152px;
+      height: 58px;
+      background: #49AD09;
+      border: none;
+    }
+  }
+}
+
+//HEADER//
+//HERO//
+#hero {
+  padding-top: 50px;
+
+  .web {
+    display: flex;
+    justify-content: space-between;
+
+    &__img {
+      max-width: 300px;
+      height: 500px;
+
+    }
+
+    &__ig {
+      max-width: 300px;
+      height: 500px;
+    }
+
+    &__wi {
+      padding-top: 40px;
+
+      &__develop {
+        font-size: 78px;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: -0.05em;
+        width: 450px;
+      }
+
+      &__text {
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #514040;
+        width: 450px;
+      }
+
+      &__shop {
+        color: #49AD09;
+      }
+
+      &__us {
+        color: white;
+        width: 160px;
+        height: 45px;
+        background: #49AD09;
+        border: none;
+      }
+
+      &__video {
+        margin-left: 40px;
+      }
+    }
+  }
+}
+//HERO//
+//chase//
+#chase {
+  .do {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .our {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+.col-6 {
+  &__con {
+    width: 384px;
+    height: 332px;
+    left: 316px;
+    top: 1412px;
+    background: #FFFFFF;
+    box-shadow: 0 100px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    &__ob {
+      padding-top: 20px;
+      margin-left: 40px;
+
+      &__vic {
+        left: 24.03%;
+        right: 74.03%;
+        top: 23.26%;
+        bottom: 76.29%;
+        margin-left: 40px;
+      }
+
+      &__was {
+        width: 231px;
+        font-size: 22px;
+        line-height: 147.9%;
+        margin-left: 28px;
+      }
+    }
+
+    &__lin {
+      padding-top: 30px;
+
+      &__more {
+        font-size: 16px;
+        line-height: 147.9%;
+        text-decoration-line: underline;
+        color: #49AD09;
+        margin-left: 40px;
+        padding-top: 40px;
+
+      }
+    }
+
+    &__text {
+      width: 324px;
+      height: 135px;
+      font-size: 18px;
+      line-height: 147.9%;
+      margin-left: 40px;
+      padding-top: 35px;
+    }
+  }
+}
+  .make {
+    margin-left: 390px;
+
+    &__learn {
+      color: white;
+      width: 225px;
+      height: 58px;
+      left: 608px;
+      top: 2196px;
+      background: #49AD09;
+      border: none;
+    }
+  }
+}
+
+//chase//
+//portfolio//
+#portfolio {
+  .work {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .our {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .fri {
+    padding-top: 30px;
+
+    &__ig1 {
+      width: 100%;
+    }
+
+    &__ig2 {
+      width: 100%;
+
+    }
+
+    &__ig3 {
+      width: 100%;
+
+    }
+
+    &__ig4 {
+      width: 100%;
+
+    }
+
+    &__page {
+      font-size: 28px;
+      line-height: 33px;
+      padding-top: 10px;
+    }
+
+    &__de {
+      padding-top: 15px;
+      color: #49AD09;
+      margin-left: 60px;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: right;
+    }
+
+  }
+
+  .all {
+    padding-top: 20px;
+    text-align: center;
+
+    &__all-btn {
+      color: white;
+      width: 225px;
+      height: 58px;
+      left: 607px;
+      top: 3622px;
+      border: none;
+      background: #49AD09;
+    }
+  }
+
+}
+
+//portfolio//
+#say {
+  padding-top: 30px;
+
+  .zet {
+    text-align: center;
+  }
+
+  .cul {
+    text-align: center;
+  }
+
+  .square {
+    margin-left: 110px;
+    width: 892px;
+    height: 540px;
+    left: 274px;
+    top: 4007px;
+    background: #F2F2F2;
+  }
+
+  .star {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -400px;
+
+    &__gone {
+      width: 340px;
+      height: 260px;
+      left: 135px;
+      top: 4110px;
+      background: #FFFFFF;
+      box-shadow: 0 100px 80px rgba(49, 49, 49, 0.1);
+      border-radius: 5px;
+      padding-left: 30px;
+      padding-top: 20px;
+
+      &__re {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        color: #6A635B;
+
+      }
+    }
+
+    .slider {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 350px;
+    }
+  }
+}
+
+#demo {
+  padding-top: 150px;
+
+  .pricing {
+    text-align: center;
+  }
+
+  .policy {
+    text-align: center;
+  }
+
+  .min {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+
+  }
+
+  .biy {
+    margin-left: 100px;
+  }
+
+  .bio {
+    margin-left: 110px;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .to {
+    color: black;
+    margin-left: 50px;
+  }
+
+  .square8 {
+    margin-top: -130px;
+    width: 362px;
+    height: 468px;
+    background: white;
+    box-shadow: 0 100px 80px rgba(49, 49, 49, 0.1);
+    border-radius: 5px;
+  }
+
+  .back {
+    margin-left: 50px;
+  }
+
+  .chek1 {
+    background-color: limegreen;
+    margin-left: 70px;
+    width: 225px;
+    height: 58px;
+    border: 1px solid #514040;
+    box-sizing: border-box;
+  }
+
+  .chek3 {
+    margin-top: 130px;
+    margin-left: 70px;
+    width: 225px;
+    height: 58px;
+    border: 1px solid #514040;
+    box-sizing: border-box;
+  }
+
+  .demo {
+    color: white;
+  }
+
+  .chek {
+    margin-left: 70px;
+    width: 225px;
+    height: 58px;
+    border: 1px solid #514040;
+    box-sizing: border-box;
+  }
+
+  .need {
+    padding-top: 30px;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 225px;
+    height: 58px;
+    left: 608px;
+    top: 5685px;
+    border: none;
+    color: white;
+    background: #49AD09;
+  }
+}
+
+#footer {
+  padding-top: 30px;
+
+  .foot {
+
+    &__next {
+      width: 236px;
+      height: 32px;
+      font-size: 16px;
+      line-height: 100%;
+      margin-top: 30px;
+    }
+  }
+
+  .foot2 {
+    &__you {
+      width: 174px;
+      height: 40px;
+      background: #F2F2F2;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+
+  .reserved {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
